@@ -10,10 +10,10 @@ const Header = () => {
         <p>Todos os produtos desta lista foram selecionados a partir da sua navegação. Aproveite!</p>
         
         <div className={S.buttons}>
-          <Button texto={"Conheça a Linx"}/>
-          <Button texto={"Ajude o algorítmo"}/>
-          <Button texto={"Seus produtos"}/>
-          <Button texto={"Compartilhe"}/>
+          <Button texto={"Conheça a Linx"} className={S.button}/>
+          <Button texto={"Ajude o algorítmo"} className={S.button}/>
+          <Button texto={"Seus produtos"} className={S.button}/>
+          <Button texto={"Compartilhe"} className={S.button}/>
         </div>
 
     </header>
