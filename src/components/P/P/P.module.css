@@ -1,0 +1,10 @@
+.paragrafo{
+    display: flex;
+}
+
+.p{
+width: 100%;
+text-align: center;
+font-size: 14px;
+color: #888888;
+}

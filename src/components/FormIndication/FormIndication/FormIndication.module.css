@@ -1,0 +1,40 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    flex-direction: column;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+}
+
+.campos{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.input{
+width: 340px;
+height: 30px;
+border: 1px solid #707070;
+}
+
+.label{
+font-size: 14px;
+color: #888888;
+margin-bottom: 5px;
+}
+
+
+.buttonIndication{
+width: 260px;
+height: 39px;
+border: 1px solid #707070;
+border-radius: 4px;
+color: #888888;
+margin-top: 30px;
+}

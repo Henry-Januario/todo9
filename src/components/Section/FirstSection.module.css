@@ -1,7 +1,9 @@
 .firstSection{
     display: flex;
     flex-direction: row;
-    margin: 5% 20% 0 20%;
+    justify-content: center;
+    margin-top: 5%;
     background-color: rgb(255, 255, 255);
     color: #707070;
+    width: 100%;
 }
