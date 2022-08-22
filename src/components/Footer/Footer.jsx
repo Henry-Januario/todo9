@@ -7,8 +7,8 @@ const Footer = () => {
     <footer className={S.footer} >
         <div className={S.paragrafoFooter}>
         <P texto={"Testando suas habilidades em HTML, CSS e JS."} className={S.p}/>
-        <P texto={"Linx Impulse"}/>
-        <P texto={"2019"}/>
+        <P texto={"Linx Impulse"} className={S.p}/>
+        <P texto={"2019"} className={S.p}/>
         </div>
     </footer>
   )

@@ -1,9 +1,9 @@
 import React from 'react'
 import S from './P.module.css'
 
-const P = ({texto}) => {
+const P = ({texto, className}) => {
   return (
-    <div className={S.paragrafo}>
+    <div className={className}>
     <p className={S.p}>{texto}</p>
     </div>
   )
