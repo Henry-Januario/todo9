@@ -1,5 +1,6 @@
 import './App.css'
-import FormIndication from './components/FormIndication/FormIndication/FormIndication'
+import Footer from './components/Footer/Footer'
+import FormIndication from './components/FormIndication/FormIndication'
 import Header from './components/Header/Header'
 import P from './components/P/P'
 import FirstSection from './components/Section/FirstSection'
@@ -15,6 +16,7 @@ function App() {
      <Separator texto={"Compartilhe a novidade"}/>
      <P texto={"Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!"}/>
      <FormIndication/>
+     <Footer/>
     </div>
   )
 }

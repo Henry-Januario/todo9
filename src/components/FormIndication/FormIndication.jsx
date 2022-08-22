@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from '../../Button/Button'
-import Input from '../../Input/Input'
-import Label from '../../Label/Label'
+import Button from '../Button/Button'
+import Input from '../Input/Input'
+import Label from '../Label/Label'
 import S from './FormIndication.module.css'
 
 const FormIndication = () => {

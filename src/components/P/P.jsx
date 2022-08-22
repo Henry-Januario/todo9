@@ -1,5 +1,5 @@
 import React from 'react'
-import S from './P/P.module.css'
+import S from './P.module.css'
 
 const P = ({texto}) => {
   return (
