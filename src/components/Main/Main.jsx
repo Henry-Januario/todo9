@@ -7,6 +7,7 @@ import FirstSection from '../Section/FirstSection'
 import Separator from '../Separator/Separator'
 import S from "../Main/Main.module.css"
 import Card from "../Card/Card";
+import Button from "../Button/Button";
 
 const Main = () => {
   const [informacoes, setInformacoes] = useState([]);
@@ -24,6 +25,9 @@ const Main = () => {
     handleRequisicao();
   }, [products]);
 
+  const nextProducts = ()=>{
+    setProducts(products + 1)
+  }
 
   return (
     <div>
@@ -46,6 +50,7 @@ const Main = () => {
               );
             })}
         </div>
+      <Button onClick={nextProducts} texto={"Ainda mais produtos aqui"} />
       <Separator texto={"Compartilhe a novidade"} />
       <P texto={"Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!"} className={S.p}/>
       <FormIndication />
