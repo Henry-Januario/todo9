@@ -30,14 +30,12 @@ margin: 0 0 5% 0;
 }
 
 .formButton{
-/* Layout Properties */
-top: 670px;
-left: 870px;
 width: 340px;
 height: 39px;
-/* UI Properties */
 background: #FFFFFF 0% 0% no-repeat padding-box;
 border: 1px solid #707070;
 border-radius: 4px;
 opacity: 1;
+color:#707070;
+cursor: pointer;
 }

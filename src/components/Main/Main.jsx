@@ -40,12 +40,12 @@ const Main = () => {
                 <Card
                   key={index}
                   img={item.image}
-                  nome={item.name}
-                  desc={item.description}
+                  nomeDoProduto={item.name}
+                  descricao={item.description}
                   valorDe={item.oldPrice}
                   valorPor={item.price}
                   valorVezes={item.installments.count}
-                  ou={item.installments.value}
+                  valorOu={item.installments.value}
                 />
               );
             })}
