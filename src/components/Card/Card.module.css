@@ -1,5 +1,7 @@
 .card{
     color: #707070;
+    max-width: 200px;
+    margin: 50px;
 }
 .image {
   top: 860px;
@@ -14,6 +16,7 @@
   background-color: rgb(255, 255, 255);
   width: 200px;
   height: 30px;
+  margin: 10px 0 0 0;
   color: rgb(86, 86, 86);
   border: 1px solid #707070;
   border-radius: 4px;
