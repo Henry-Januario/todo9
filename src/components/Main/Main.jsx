@@ -4,12 +4,15 @@ import P from '../P/P'
 import FirstSection from '../Section/FirstSection'
 import Separator from '../Separator/Separator'
 import S from "../Main/Main.module.css"
+import Card from "../Card/Card";
 
 const Main = () => {
+
   return (
     <div>
       <FirstSection />
       <Separator texto={"Sua seleção especial"} />
+      <Card/>
       <Separator texto={"Compartilhe a novidade"} />
       <P texto={"Quer que seus amigos também ganhem a lista personalizada deles? Preencha agora!"} className={S.p}/>
       <FormIndication />
